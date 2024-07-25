@@ -1,0 +1,531 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+*{
+    text-decoration: none;
+    padding: 0px;
+}
+.mini-nav{
+    justify-content: space-around;
+    display: flex;
+    margin-top: 3px;
+    border-bottom: 1px solid rgb(235, 235, 235)    ;
+}
+.child-1{
+    justify-content: space-around;
+    margin-top: 0px;
+    color: rgb(150, 150, 150);
+}
+.child-1 a{
+    color: rgb(150, 150, 150);
+    transition: 0.5s ease;
+}
+.child-2 ul{
+    display: flex;
+    list-style-type: none;
+    margin-top: 0px;
+}
+.child-2 ul li{
+    margin-left: 10px;
+    color: rgb(150, 150, 150);
+    transition: 0.5s ease;
+}
+.child-1 a:hover{
+    color: rgb(1, 119, 193);
+}
+.child-2 ul li:hover{
+    color: rgb(1, 119, 193);
+}
+.navbar{
+    display: flex;
+    justify-content: space-around;
+}
+.logo{
+    font-family: "Roboto", sans-serif;
+    font-size: 20px;
+}
+.logo h1 span{
+    color: rgb(1, 119, 193);
+}
+.links ul{
+    display: flex;
+    list-style-type: none;
+    margin-top: 30px;
+}
+.links ul li{
+    margin-left: 20px;
+    color: rgb(150, 150, 150);
+    transition: 0.5s ease;
+}
+.links ul li:hover{
+    color: rgb(1, 119, 193);
+}
+.links ul .home{
+    color: rgb(1, 119, 193);
+}
+.div-1 .group-1 .icon-1{
+    display: flex;
+    margin-top: 200px;
+}
+.div-1 .group-1 .icon-1{
+    display: flex;
+    margin-left: 150px;
+}
+.div-1 .group-1 .icon-1 img{
+    width: 30px;
+    height: 30px;
+}
+.div-1 .group-1 .icon-1 input{
+    height: 25px;
+    width: 25rem;
+    padding: 0px 100px 0px 0px;
+    padding-left: 0px;
+    margin-right: 0px;
+}
+.div-1 .group-1 .icon-2{
+    display: flex;
+    margin-left: 20px;
+    margin-top: 200px;
+}
+.div-1 .group-1 .icon-2 img{
+    width: 30px;
+    height: 30px;
+}
+.div-1 .group-1 .icon-2 input{
+    height: 28px;
+    width: 5rem;
+    padding: 0px 100px 0px 0px;
+    padding-left: 0px;
+}
+.div-1 .group-1 .icon-3{
+    display: flex;
+    margin-left: 20px;
+    margin-top: 200px;
+}
+.div-1 .group-1 .icon-3 img{
+    width: 30px;
+    height: 30px;
+}
+.div-1 .group-1 .icon-3 input{
+    height: 25px;
+    width: 5rem;
+    padding: 0px 100px 0px 0px;
+    padding-left: 0px;
+    width: 180px;
+}
+.div-1 .group-2{
+    display: flex;
+    margin-top: 10px;
+}
+.div-1 .group-2 .icon-4{
+    display: flex;
+    margin-left: 150px;
+}
+.div-1 .group-2 .icon-4 img{
+    width: 30px;
+    height: 30px;
+}
+.div-1 .group-2 .icon-4 input{
+    height: 28px;
+    width: 5rem;
+    padding: 0px 0px 0px 0px;
+    padding-left: 0px;
+}
+.div-1 .group-2 .icon-5{
+    display: flex;
+    margin-left: 20px;
+}
+.div-1 .group-2 .icon-5 img{
+    width: 30px;
+    height: 30px;
+}
+.div-1 .group-2 .icon-5 input{
+    height: 28px;
+    width: 5rem;
+    padding: 0px 0px 0px 0px;
+    padding-left: 0px;
+}
+.div-1 .group-2 .icon-6{
+    display: flex;
+    margin-left: 20px;
+}
+.div-1 .group-2 .icon-6 img{
+    width: 30px;
+    height: 30px;
+}
+.div-1 .group-2 .icon-6 input{
+    height: 28px;
+    width: 5rem;
+    padding: 0px 100px 0px 0px;
+    padding-left: 0px;
+}
+.div-1 form.input-button{
+    background-color: rgb(1, 119, 193);
+    color: white;
+    margin-left: 16px;
+    width: 13.5rem;
+    border: 1px solid rgb(1, 119, 193);
+    font-weight: bolder;
+}
+.div-1 .input-button:hover{
+    background-color: rgb(0, 0, 112);
+    display: inline-block;
+    transition: 0.5s ease;
+}
+.div-1 input{
+    border: 1px solid black;
+    margin-left: 0px;
+}
+.div-1{
+    background-image: url(b-1.png);
+    background-repeat: no-repeat;
+    height: 600px;
+    background-size: 1350px;
+}
+.div-1 h1{
+    color: rgb(255, 255, 255);
+    margin-left: 350px;
+    font-size: 40px;
+}
+.div-1 p{
+    color: rgb(255, 255, 255);
+    margin-left: 350px;
+    font-size: 30px;
+    margin-top: 0px;
+    margin-bottom: 10px;
+}
+.div-1 h1 span{
+    font-size: 50px;
+    margin-right: 00px;
+}
+.div-2{
+    background-color: rgb(251, 247, 246);
+    width: 1280px;
+    height: 400px;
+    display: flex;
+}
+.div-2 .card-1{
+    background-color: white;
+    display: flex;
+    width: 420px;
+    height: 200px;
+    margin-top: 100px;
+    margin-left: 20px;
+}
+.parent{
+    background-color: rgb(251, 247, 246);
+}
+.paren{
+    background-color: rgb(251, 247, 246);
+}
+.div-2 .card-1 img{
+    width: 100px;
+    height: 100px;
+    margin-top: 50px;
+    margin-left: 20px;
+}
+.card-1 p{
+    margin-top: 70px;
+    margin-left: 8px;
+    font-size: 17px;
+    color: gray;
+}
+.card-1 p span{
+    font-size: 20px;
+    font-weight: bolder;
+    color: black;
+}
+.div-2 .card-2{
+    background-color: white;
+    display: flex;
+    width: 400px;
+    height: 200px;
+    margin-top: 100px;
+    margin-left: 20px;
+}
+.card-2 img{
+    width: 100px;
+    height: 100px;
+    margin-top: 50px;
+    margin-left: 20px;
+}
+.card-2 p{
+    margin-top: 70px;
+    margin-left: 10px;
+    font-size: 17px;
+    color: gray;
+}
+.card-2 p span{
+    font-size: 20px;
+    font-weight: bolder;
+    color: black;
+}
+.div-2 .card-3{
+    background-color: white;
+    display: flex;
+    width: 380px;
+    height: 200px;
+    margin-top: 100px;
+    margin-left: 20px;
+}
+.card-3 img{
+    width: 100px;
+    height: 100px;
+    margin-top: 50px;
+    margin-left: 20px;
+}
+.card-3 p{
+    margin-top: 70px;
+    margin-left: 10px;
+    font-size: 17px;
+    color: gray;
+}
+.card-3 p span{
+    font-size: 20px;
+    font-weight: bolder;
+    color: black;
+}
+.div-3{
+    background-color: rgb(251, 247, 246);
+}
+.places{
+    display: flex;
+    justify-content: space-around;
+}
+.div-3 .place-1{
+    background-image: url(background-2.jfif);
+    width: 300px;
+    height: 500px;
+    background-position: 300px;
+    color: white;
+}
+.div-3 .place-1:hover{
+    box-shadow: 5px 10px 12px rgb(1, 119, 193);
+}
+.div-3 .place-2:hover{
+    box-shadow: 5px 10px 12px rgb(1, 119, 193);
+}
+.div-3 .place-3:hover{
+    box-shadow: 5px 10px 12px rgb(1, 119, 193);
+}
+.div-3 .place-2{
+    background-image: url(background-3.jfif);
+    width: 300px;
+    height: 500px;
+    background-position: 440px;
+    color: white;
+}
+.div-3 .place-3{
+    background-image: url(background-4.jfif);
+    width: 300px;
+    height: 500px;
+    color: white;
+    background-position: 440px;
+}
+.div-3 p{
+    color: rgb(150, 150, 150);
+}
+.div-4{
+    width: 1288px;
+    height: 500px;
+    background: linear-gradient(#424d53a5 , #424d53a5) , url(background-6.jfif);
+    background-repeat: no-repeat;
+    background-size: 1288px;
+    background-position: 5px;
+}
+.flex{
+    display: flex;
+}
+.flex .time{
+    color: white;
+    border: 1px solid white;
+    border-radius: 50px;
+    width: 80px;
+    height: 80px;
+    margin-left: 20px;
+    margin-top: 80px;
+    padding: 10px;
+}
+.time-m{
+    border: 1px solid white;
+    border-radius: 50px;
+    width: 80px;
+    height: 80px;
+    margin-left: 500px;
+    margin-top: 80px;
+    color: white;
+    padding: 10px;
+}
+.div-4 .flex .time:hover{
+    background-color: rgb(0, 0, 112);
+    text-shadow: 5px 5px 8px white;
+    transition: 0.5s ease;
+}
+.div-4 .flex .time-m:hover{
+    background-color: rgb(0, 0, 112);
+    text-shadow: 5px 5px 8px white;
+    transition: 0.5s ease;
+}
+.h1{
+    color: white;
+    margin-left: 450px;
+}
+.div-4 button{
+    color: #fff;
+    background-color: black;
+    margin-left: 670px;
+    padding: 5px;
+    margin-top: 20px;
+}
+.div-5 .tour{
+    background-color: white;
+    width: 420px;
+    height: 550px;
+    margin-top: 100px;
+    margin-left: 20px;
+}
+.div-5 .tour img:hover{
+    box-shadow: 5px 10px 12px rgb(1, 119, 193);
+    transition: 0.8s ease;
+}
+.div-5{
+    background-color: rgb(251, 247, 246);
+    display: flex;
+}
+.div-5 .tour img{
+    width: 410px;
+    height: 400px;
+}
+.div-5 .tour p{
+    margin-top: 70px;
+    margin-left: 8px;
+    font-size: 17px;
+    color: gray;
+}
+.div-5.tour p span{
+    font-size: 20px;
+    font-weight: bolder;
+    color: black;
+}
+.parent.div-6{
+    background-color: rgb(251, 247, 246);
+    width: 1299;
+    height: 500px;
+}
+.div-6 p{
+    color: rgb(150, 150, 150);
+}
+.div-6{
+    height: 950px;
+}
+.div-7 .small-circle{
+    background-color: rgb(124, 123, 122); 
+}
+.div-7 .small-circle:hover{
+    background-color: rgb(1, 119, 193);
+}
+.div-9{
+    background: linear-gradient(#424d53a5 , #424d53a5) , url(background-7.jfif);
+    background-repeat: no-repeat;
+    background-size: 1288px;
+    background-position: 20px;
+}
+.Blog{
+    background-color: white;
+    width: 420px;
+    height: 550px;
+    margin-top: 100px;
+    margin-left: 20px;
+}
+.div-10.Blog img:hover{
+    box-shadow: 5px 10 12px rgb(1, 119, 193);
+}
+.div-10{
+    background-color: rgb(251, 247, 246);
+    display: flex;
+}
+.Blog img{
+    width: 410px;
+    height: 400px;
+}
+.Blog p{
+    margin-top: 70px;
+    margin-left: 8px;
+    font-size: 17px;
+    color: gray;
+}
+.Blog p span{
+    font-size: 20px;
+    font-weight: bolder;
+    color: black;
+}
+@media only screen and (max-width: 312px) {
+    .mini-nav {
+      display: none;
+    }
+  }
+  @media only screen and (max-width: 312px) {
+    .links {
+        display: none;
+    }
+  }
+  @media only screen and (max-width: 312px) {
+    .input-1 {
+      display: block;
+    }
+}
+.paren .div-5 .tour .asdf .mr{
+    background-color: rgb(1, 119, 193);
+}
+.paren .div-5 .tour .asdf .mr:hover{
+    background-color: rgb(0, 0, 112);
+    display: inline-block;
+    transition: 0.5s ease;
+}
+.footer-input:hover{
+    background-color: gold;
+    border: 1px solid gold;
+}
+.paren .div-5 .tour .asdf .rate:hover{
+    transition: 0.8 ease;
+}
+.paren .div-5 .tour .asdf .rate:hover{
+    color: rgb(1, 119, 193);
+}
+.group-1{
+    display: flex;
+}
+.b-1{
+    width:100px ;height: 30px; background-color: rgb(1, 119, 193); color: rgb(255, 255, 255);
+    border: 1px solid rgb(1, 119, 193);
+    transition: 0.8s ease;
+}
+.b-1:hover{
+    background-color: transparent;
+}
+.b-2{
+    width:100px ;height: 30px; background-color: white; color: rgb(1, 119, 193); margin-left: 20px;
+    border: 1px solid rgb(235, 235, 235);
+    transition: 0.8s ease;
+}
+.b-2:hover{
+    background-color: transparent;
+}
+.div-11 .small-circle{
+    background-color: rgb(124, 123, 122); 
+}
+.div-11 .small-circle:hover{
+    background-color: rgb(1, 119, 193);
+}
+.div-12 button{
+    background-color: black;
+    transition: 0.8 ease;
+    border: 1px solid black;
+}
+.div-12 button:hover{
+    background-color: gold;
+}
+.div-13 .footer-1 .fa-brands{
+    color: black;
+}
+.div-13 .footer-1 .fa-brands:hover{
+    color: rgb(6, 6, 255);
+}
